@@ -91,7 +91,6 @@ header h1 span {
 
 .hero2 {
     width: 100%;
-    height: 500px;
     text-align: center;
     background-image: url(../img/lavadero.jpg);
     background-position: center;
@@ -264,3 +263,14 @@ footer img {
         margin: 15px;
     }
 }
+
+@media screen and (max-width:450) {
+    .formulario{
+        width: 280.5px;
+        height: 365px;
+        text-align: justify;
+        margin: 15px;
+        display: inline-block;
+    }
+}
+
