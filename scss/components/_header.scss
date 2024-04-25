@@ -8,5 +8,5 @@ header nav a h1 {
 }
 
 header nav a h1 span {
-  color: crimson;
+  color: nth($colores , 2);
 }

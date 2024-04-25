@@ -7,10 +7,15 @@ body {
   font-family: "Josefin", sans-serif; }
 
 .navbar-color {
-  background-color: black !important; }
+  background-color: black; }
 
 .nav-link {
   color: white; }
+
+.bg condicion {
+  background-color: black;
+  color: #ffffff;
+  border: solid 2px yellow; }
 
 header nav a h1 {
   color: white;
@@ -33,10 +38,7 @@ header nav a h1 span {
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
   .hero h2 {
     color: white;
     font-size: 70px;
@@ -118,6 +120,11 @@ header nav a h1 span {
 
 .servicios div h3 {
   margin-bottom: 15px; }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 footer a img {
   width: 50px;

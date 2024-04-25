@@ -5,15 +5,43 @@
     padding: 0;
 }
 
+//! variables
+
+$color-nav: black;
+$color-letras: white;
+
+
+//! listas
+$colores: gray solid, crimson, black;
+
 body {
     font-family: "Josefin", sans-serif;
     ;
 }
 
 .navbar-color {
-    background-color: black !important
+    background-color: $color-nav
 }
 
 .nav-link {
     color: white;
+}
+
+//!condicional
+@mixin modos($modo-dark) {
+    @if $modo-dark==black {
+        background-color: black;
+        color: #ffffff;
+        border: solid 2px yellow;
+    }
+
+    @else {
+        background-color: white;
+        color: black;
+        border: solid 2px red;
+    }
+}
+
+.bg condicion {
+    @include modos(black);
 }
