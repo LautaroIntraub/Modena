@@ -59,45 +59,159 @@
 }
 
 @media screen and (max-width:790px) {
-    .bienvenidos h2 {
-        font-size: 25px;
+    section .bienvenidos div h2 {
+        font-size: 17px;
     }
 
-    .bienvenidos p {
-        font-size: 15px;
+    section .bienvenidos div p {
+        font-size: 7px;
     }
 
-    .bienvenidos img {
-        width: 300px;
-        height: 200px;
+    section .bienvenidos img {
+        width: 200px;
+        height: 100px;
     }
 }
 
 @media screen and (max-width:432px) {
-    .bienvenidos h2 {
-        font-size: 17px;
+    section .bienvenidos div h2 {
+        font-size: 14px;
     }
 
-    .bienvenidos p {
-        font-size: 11px;
+    section .bienvenidos div p {
+        font-size: 5px;
     }
 
-    .bienvenidos img {
-        width: 200px;
-        height: 150px;
+    section .bienvenidos div img {
+        width: 150px;
+        height: 80px;
     }
 }
 
-@media screen and (max-width:984) {
-    .servicios {
+@media screen and (max-width:1307px) {
+    .servicios section div {
         width: 210.5px;
         height: 275px;
         margin: 15px;
     }
 }
 
-@media screen and (max-width:450) {
-    .formulario{
+@media screen and (max-width:1307px) {
+    .servicios section div img {
+        width: 208px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:1307px) {
+    .servicios section div a {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        padding: 7px;
+    }
+}
+
+@media screen and (max-width:1307px) {
+    .servicios section div h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .servicios section div {
+        width: 180.5px;
+        height: 245px;
+        margin: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .servicios section div img {
+        width: 178px;
+        height: 155px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .servicios section div a {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .servicios section div h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:823px) {
+    .servicios section div {
+        width: 140.5px;
+        height: 205px;
+        margin: 8px;
+    }
+}
+
+@media screen and (max-width:823px) {
+    .servicios section div img {
+        width: 137.5px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width:823px) {
+    .servicios section div a {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:823px) {
+    .servicios section div h3 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .servicios section div {
+        width: 110.5px;
+        height: 185px;
+        margin: 8px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .servicios section div img {
+        width: 107.5px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .servicios section div a {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        font-size: 9px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .servicios section div h3 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .hero .formulario {
         width: 280.5px;
         height: 365px;
         text-align: justify;
@@ -105,3 +219,26 @@
         display: inline-block;
     }
 }
+
+@media screen and (max-width:900px) {
+    .hero2 div p {
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .hero2 div p {
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    footer a img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
